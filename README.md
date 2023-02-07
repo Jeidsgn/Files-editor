@@ -2,7 +2,7 @@
 
 Este repositorio contiene el código necesario para facilitar un proceso necesario al usar superponer los fotogramas resultantes cuando se usa Ebsynth.
 
-##Descripción
+## Descripción
 
 Este código fue creado para automatizar la superposición de fotogramas al usar EbSynth.
 
@@ -14,7 +14,7 @@ Por último, se vuelve a recorrer cada carpeta cumpliendo el patrón "out_[#####
 
 En general, este código realiza una superposición de imágenes, donde la opacidad de cada imagen depende de su distancia con respecto a una imagen clave. La imagen resultante se almacena en una carpeta específica.
 
-##Instalación
+## Instalación
 
 Para utilizar este código, siga estos pasos:
 
@@ -22,10 +22,10 @@ Clone o descargue el repositorio en su sistema.
 Abra el archivo con su editor de código preferido (fue hecho en google colab, así que recomiendo ejecutarlo ahí).
 Siga las instrucciones en el archivo para configurar y ejecutar el código.
 
-##Uso
+## Uso
 
 Una vez que haya seguido los pasos de instalación, el código estará listo para su uso. Siga las instrucciones en el archivo para ejecutar el proceso deseado.
 
-##Contribución
+## Contribución
 
 Si desea contribuir a este proyecto, por favor abra una solicitud de extracción o envíenos un correo electrónico. Estaré encantado de revisar cualquier cambio o mejora que se proponga.
