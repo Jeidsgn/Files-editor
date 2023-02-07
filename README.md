@@ -1,6 +1,6 @@
 # Frame_overlay
 
-Este repositorio contiene el código necesario para facilitar un proceso necesario al usar superponer los fotogramas resultantes cuando se usa Ebsynth.
+Este repositorio contiene el código necesario para facilitar la superposición de los fotogramas resultantes cuando se usa Ebsynth.
 
 ## Descripción
 
