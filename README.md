@@ -1,31 +1,18 @@
-# Frame_overlay
+# Files_Editor
 
-Este repositorio contiene el código necesario para facilitar la superposición de los fotogramas resultantes cuando se usa Ebsynth.
+**Files_Editor** is a repository that centralizes and documents recurring processes and automations related to video editing through scripts. The goal is to streamline and simplify repetitive tasks in image and video manipulation.
 
-## Descripción
+Currently, the repository includes two main projects:
 
-Este código fue creado para automatizar la superposición de fotogramas al usar EbSynth.
+- **Frame_overlay**: Automates the overlay of images on video frames, optimized for use with **EbSynth**.
+- **Frames_select**: Automates the selection of keyframes based on motion blur analysis, providing more stable frames for processing in **EbSynth**.
 
-al usar Ebsynth se crean varias carpetas, una por cada keyframe, que contiene los frames circundantes a ese keyframe, y que están duplicados en otras carpetas. Para crear el video resultante es necesario superponer estos frames conuna opacidad relativa a su distancia para que se vea suavizado.
+Each folder contains its own `README.md` with detailed instructions and usage guidelines.
 
-Este script recorre todas las carpetas dentro de "directorio" y busca aquellas que cumplen con el patrón "out_[#####]". Para cada una de estas carpetas, se obtienen los fotogramas contenidos en ella y se almacenan en una lista "frames".
+## Future of the Repository
 
-Por último, se vuelve a recorrer cada carpeta cumpliendo el patrón "out_[#####]" y se realiza la superposición de las imágenes. Para cada fotograma, se abre y se aplica una opacidad que depende de la distancia entre el fotograma actual y el fotograma clave. La opacidad se aplica sobre la imagen base que puede ser el fotograma abierto o una imagen previamente superpuesta. La imagen resultante se guarda en la carpeta "resultado".
+This repository will continue to grow as more processes are documented and automated. **Files_Editor** aims to be a comprehensive collection of scripts and tools for improving efficiency in video and image processing.
 
-En general, este código realiza una superposición de imágenes, donde la opacidad de cada imagen depende de su distancia con respecto a una imagen clave. La imagen resultante se almacena en una carpeta específica.
-
-## Instalación
-
-Para utilizar este código, siga estos pasos:
-
-Clone o descargue el repositorio en su sistema.
-Abra el archivo con su editor de código preferido (fue hecho en google colab, así que recomiendo ejecutarlo ahí).
-Siga las instrucciones en el archivo para configurar y ejecutar el código.
-
-## Uso
-
-Una vez que haya seguido los pasos de instalación, el código estará listo para su uso. Siga las instrucciones en el archivo para ejecutar el proceso deseado.
-
-## Contribución
-
-Si desea contribuir a este proyecto, por favor abra una solicitud de extracción o envíenos un correo electrónico. Estaré encantado de revisar cualquier cambio o mejora que se proponga.
+---
+**Author**: Jei  
+This is an open-source project, feel free to use, modify, or contribute.
